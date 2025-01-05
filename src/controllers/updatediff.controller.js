@@ -1,5 +1,6 @@
 import { storeOutput } from "../utils/store-output.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
+import { updateFolderStructure } from "../db/utils.js";
 
 const updatediff = async (req, res) => {
   try {
@@ -11,7 +12,10 @@ const updatediff = async (req, res) => {
         .json(new ApiResponse(400, "Error", "No diff data provided"));
     }
 
-    // Store the diff data
+    // Update the database with the diff
+    await updateFolderStructure(diff);
+
+    // Store the diff data for logging/debugging
     await storeOutput(diff, "updated-tree.json", "Updated diff stored");
 
     return res

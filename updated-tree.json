@@ -1,5 +1,5 @@
 {
-  "timestamp": "2024-12-30T01:27:51.101Z",
+  "timestamp": "2025-01-04T21:05:23.875Z",
   "summary": {
     "total": 3,
     "added": 1,
@@ -55,7 +55,7 @@
             "name": ".eslintrc.json",
             "contentHash": "d2af058a482b40fc298c535087d90d5854122bb7e6a6954654a9815c44f4cbeb",
             "size": 884,
-            "lastModified": "2024-12-30T01:27:08.121Z"
+            "lastModified": "2025-01-04T21:04:44.086Z"
           },
           {
             "type": "folder",
@@ -68,14 +68,14 @@
             "name": ".gitignore",
             "contentHash": "b3ad22e85c1e5e979bbfd7cbd228844076367aacaf45739f7972c4d0a8d11ace",
             "size": 489,
-            "lastModified": "2024-12-30T01:27:08.121Z"
+            "lastModified": "2025-01-04T21:04:44.086Z"
           },
           {
             "type": "file",
             "name": ".prettierrc.json",
             "contentHash": "9d1f65c27c3bc43c33d304c5a0ce6d6cc5f18d540acafdfa6acec660a849063e",
             "size": 572,
-            "lastModified": "2024-12-30T01:27:08.121Z"
+            "lastModified": "2025-01-04T21:04:44.086Z"
           },
           {
             "type": "folder",
@@ -87,7 +87,7 @@
                 "name": "settings.json",
                 "contentHash": "64267a1d8c6e885c5479725d0e8cdbb00e6df812bbe992eb2fdbb2a46ca632c0",
                 "size": 604,
-                "lastModified": "2024-12-30T01:27:08.121Z"
+                "lastModified": "2025-01-04T21:04:44.087Z"
               }
             ]
           },
@@ -96,35 +96,35 @@
             "name": "docker-compose.yaml",
             "contentHash": "d0e0458b2ae6fd6ccce485a79e57ce6a33b97e216be829bc24738a4ca4bb8da1",
             "size": 335,
-            "lastModified": "2024-12-30T01:27:08.122Z"
+            "lastModified": "2025-01-04T21:04:44.087Z"
           },
           {
             "type": "file",
             "name": "next.config.ts",
             "contentHash": "afeec7f034eadcc7cccc27a2ed09b28908546ac03a30e93a68b970f3d618592b",
             "size": 190,
-            "lastModified": "2024-12-30T01:27:08.122Z"
+            "lastModified": "2025-01-04T21:04:44.087Z"
           },
           {
             "type": "file",
             "name": "package.json",
             "contentHash": "5a2116be54a18afad9829f19c1d21475a4bc09bbf27ae111352e4e5cd1c53431",
             "size": 1111,
-            "lastModified": "2024-12-30T01:27:08.122Z"
+            "lastModified": "2025-01-04T21:04:44.087Z"
           },
           {
             "type": "file",
             "name": "pnpm-lock.yaml",
             "contentHash": "f872c36a888379a5d1dedd0365ddd43de259c6205475d6192d04fdd506da1efc",
             "size": 127771,
-            "lastModified": "2024-12-30T01:27:08.122Z"
+            "lastModified": "2025-01-04T21:04:44.088Z"
           },
           {
             "type": "file",
             "name": "postcss.config.mjs",
             "contentHash": "ac31e2a95ef64fe27ceb4124e101675273107aae2e33bc490b01d919e7f03646",
             "size": 135,
-            "lastModified": "2024-12-30T01:27:08.122Z"
+            "lastModified": "2025-01-04T21:04:44.088Z"
           },
           {
             "type": "folder",
@@ -136,35 +136,35 @@
                 "name": "file.svg",
                 "contentHash": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
                 "size": 391,
-                "lastModified": "2024-12-30T01:27:08.122Z"
+                "lastModified": "2025-01-04T21:04:44.088Z"
               },
               {
                 "type": "file",
                 "name": "globe.svg",
                 "contentHash": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
                 "size": 1035,
-                "lastModified": "2024-12-30T01:27:08.123Z"
+                "lastModified": "2025-01-04T21:04:44.088Z"
               },
               {
                 "type": "file",
                 "name": "next.svg",
                 "contentHash": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
                 "size": 1375,
-                "lastModified": "2024-12-30T01:27:08.123Z"
+                "lastModified": "2025-01-04T21:04:44.088Z"
               },
               {
                 "type": "file",
                 "name": "vercel.svg",
                 "contentHash": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
                 "size": 128,
-                "lastModified": "2024-12-30T01:27:08.123Z"
+                "lastModified": "2025-01-04T21:04:44.088Z"
               },
               {
                 "type": "file",
                 "name": "window.svg",
                 "contentHash": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
                 "size": 385,
-                "lastModified": "2024-12-30T01:27:08.123Z"
+                "lastModified": "2025-01-04T21:04:44.088Z"
               }
             ]
           },
@@ -173,7 +173,7 @@
             "name": "README.md",
             "contentHash": "b05fe5c01d123b9cc111d00cacaa5eac092baedd130bfa6afe76bd0c250ea6dc",
             "size": 4375,
-            "lastModified": "2024-12-30T01:27:08.121Z"
+            "lastModified": "2025-01-04T21:04:44.087Z"
           },
           {
             "type": "folder",
@@ -190,14 +190,14 @@
                     "name": "example-thing.tsx",
                     "contentHash": "25999e91f6c49d104e574c965f38296bb3028c1f859107fef543de4915528070",
                     "size": 79,
-                    "lastModified": "2024-12-30T01:27:08.123Z"
+                    "lastModified": "2025-01-04T21:04:44.088Z"
                   },
                   {
                     "type": "file",
                     "name": "favicon.ico",
                     "contentHash": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932",
                     "size": 25931,
-                    "lastModified": "2024-12-30T01:27:08.123Z"
+                    "lastModified": "2025-01-04T21:04:44.089Z"
                   },
                   {
                     "type": "folder",
@@ -209,14 +209,14 @@
                         "name": "GeistMonoVF.woff",
                         "contentHash": "e8b65928f551b17e3d67c3f709721b952c39842d14b00701f9232057fde73608",
                         "size": 67864,
-                        "lastModified": "2024-12-30T01:27:08.123Z"
+                        "lastModified": "2025-01-04T21:04:44.089Z"
                       },
                       {
                         "type": "file",
                         "name": "GeistVF.woff",
                         "contentHash": "296fafafd41304f7c992079054b8af914dbbd865f32de97c66d0f613b55755d6",
                         "size": 66268,
-                        "lastModified": "2024-12-30T01:27:08.124Z"
+                        "lastModified": "2025-01-04T21:04:44.089Z"
                       }
                     ]
                   },
@@ -225,21 +225,21 @@
                     "name": "globals.css",
                     "contentHash": "9924412e9f088acd136ae36b8edb494709b2d98f798578a01007608a06de70a1",
                     "size": 367,
-                    "lastModified": "2024-12-30T01:27:08.124Z"
+                    "lastModified": "2025-01-04T21:04:44.090Z"
                   },
                   {
                     "type": "file",
                     "name": "layout.tsx",
                     "contentHash": "bac025d6c821d5a08e0581a489443720f4431eb4e65a7f2243fc4dd905d87733",
                     "size": 1518,
-                    "lastModified": "2024-12-30T01:27:08.124Z"
+                    "lastModified": "2025-01-04T21:04:44.090Z"
                   },
                   {
                     "type": "file",
                     "name": "page.tsx",
                     "contentHash": "2309d2613ecff18b6a59bba5069fbd0142f84d0f23557d727ef412979e060d7c",
                     "size": 4880,
-                    "lastModified": "2024-12-30T01:27:08.124Z"
+                    "lastModified": "2025-01-04T21:04:44.090Z"
                   }
                 ]
               },
@@ -253,7 +253,7 @@
                     "name": "server.ts",
                     "contentHash": "4356a8241788ea9a620ac703cebbf23f61788e55bd2e6b80649045adda1cf752",
                     "size": 1187,
-                    "lastModified": "2024-12-30T01:27:08.124Z"
+                    "lastModified": "2025-01-04T21:04:44.090Z"
                   }
                 ]
               },
@@ -262,7 +262,7 @@
                 "name": "middleware.ts",
                 "contentHash": "f0c604c5ad80a4dfcd37c76950b631664735ae79ddc090efced3d7b56a6c8649",
                 "size": 418,
-                "lastModified": "2024-12-30T01:27:08.124Z"
+                "lastModified": "2025-01-04T21:04:44.090Z"
               }
             ]
           },
@@ -271,21 +271,21 @@
             "name": "tailwind.config.ts",
             "contentHash": "223f2def401123e32ac5664f79c73bdaa8b3a77caf466a304bff919a2a28c16f",
             "size": 393,
-            "lastModified": "2024-12-30T01:27:08.125Z"
+            "lastModified": "2025-01-04T21:04:44.090Z"
           },
           {
             "type": "file",
             "name": "TODO.md",
             "contentHash": "d41aa894e7d1a41d2b16ddb8304bb23defbc973a660b34240f1448360807deb9",
             "size": 1417,
-            "lastModified": "2024-12-30T01:27:08.121Z"
+            "lastModified": "2025-01-04T21:04:44.087Z"
           },
           {
             "type": "file",
             "name": "tsconfig.json",
             "contentHash": "03fcd87d885971a893e76887d450570e829370baa07703ec29b5344e82fb0cac",
             "size": 704,
-            "lastModified": "2024-12-30T01:27:08.125Z"
+            "lastModified": "2025-01-04T21:04:44.090Z"
           }
         ]
       }
