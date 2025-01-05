@@ -1,4 +1,5 @@
 import { google } from "googleapis";
+import "./dot.js";
 
 let googleDrive = "";
 const DriveInit = () => {
