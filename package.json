@@ -10,9 +10,18 @@
   },
   "homepage": "https://github.com/microDotBuilder/file-manager-backend#readme",
   "scripts": {
-    "dev": "nodemon src/index.ts"
+    "dev": "nodemon src/index.ts",
+    "queries": "node ./src/db/queries.js",
+    "caching": "node ./src/db/caching.js",
+    "seed": "node prisma/seed.js",
+    "seed:update": "node prisma/update-seed.js",
+    "seed:cleanup": "node prisma/seed-cleanup.js",
+    "migrate": "npx prisma migrate dev"
   },
   "dependencies": {
+    "@prisma/client": "5.22.0",
+    "@prisma/extension-accelerate": "1.2.1",
+    "@prisma/extension-pulse": "1.2.0",
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -21,9 +30,10 @@
     "google-auth-library": "^9.15.0",
     "googleapis": "^144.0.0",
     "jsonwebtoken": "^9.0.2",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "prisma": "5.22.0"
   }
 }

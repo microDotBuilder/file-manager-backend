@@ -22,9 +22,13 @@ app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 import healthcheckRouter from "./routes/healthcheck.routes.js";
 import { errorHandler } from "./middlewares/error.middlewares.js";
 import uploadRouter from "./routes/upload.route.js";
+import updatediffRouter from "./routes/updatediff.route.js";
+import setupRouter from "./routes/setup.route.js";
 
 app.use("/api/v1/healthcheck", healthcheckRouter);
 app.use("/api/v1/upload", uploadRouter);
+app.use("/api/v1/update", updatediffRouter);
+app.use("/api/v1/setup", setupRouter);
 
 // common error handling middleware
 app.use(errorHandler);
