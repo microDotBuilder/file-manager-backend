@@ -10,7 +10,8 @@
   },
   "homepage": "https://github.com/microDotBuilder/file-manager-backend#readme",
   "scripts": {
-    "dev": "nodemon src/index.ts",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
     "queries": "node ./src/db/queries.js",
     "caching": "node ./src/db/caching.js",
     "seed": "node prisma/seed.js",
