@@ -54,7 +54,6 @@ async function findOrCreateParentFolder(pathSegments) {
 
 export async function updateFolderStructure(diff) {
   const { changes } = diff;
-  // console.log(`Processing ${changes.length} changes...`);
 
   for (const change of changes) {
     const { changeType, path: changePath, oldNode, newNode } = change;
@@ -68,7 +67,6 @@ export async function updateFolderStructure(diff) {
     try {
       switch (changeType) {
         case "added": {
-          // console.log(`Adding: ${changePath}`);
           const parentId = await findOrCreateParentFolder(pathSegments);
 
           if (newNode.type === "folder") {
@@ -104,14 +102,14 @@ export async function updateFolderStructure(diff) {
         }
 
         case "removed": {
-          // console.log(`Removing: ${changePath}`);
           if (oldNode.type === "folder") {
+            // Find the parent folder first
+            const parentId = await findOrCreateParentFolder(pathSegments);
+
             const folder = await prisma.folder.findFirst({
               where: {
                 name: oldNode.name,
-                parent: {
-                  name: pathSegments[pathSegments.length - 1] || null,
-                },
+                parentId: parentId,
               },
             });
 
@@ -129,12 +127,13 @@ export async function updateFolderStructure(diff) {
               });
             }
           } else {
+            // Find the parent folder first
+            const parentId = await findOrCreateParentFolder(pathSegments);
+
             const file = await prisma.file.findFirst({
               where: {
                 name: oldNode.name,
-                folder: {
-                  name: pathSegments[pathSegments.length - 1] || null,
-                },
+                folderId: parentId,
               },
             });
 
@@ -148,7 +147,6 @@ export async function updateFolderStructure(diff) {
         }
 
         case "modified": {
-          // console.log(`Modifying: ${changePath}`);
           if (newNode.type === "file") {
             const parentId = await findOrCreateParentFolder(pathSegments);
 
@@ -182,8 +180,6 @@ export async function updateFolderStructure(diff) {
       throw error;
     }
   }
-
-  // console.log("Database update completed successfully");
 }
 
 async function processChildNode(change) {
