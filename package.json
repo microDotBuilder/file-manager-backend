@@ -15,6 +15,7 @@
     "caching": "node ./src/db/caching.js",
     "seed": "node prisma/seed.js",
     "seed:update": "node prisma/update-seed.js",
+    "seed:cleanup": "node prisma/seed-cleanup.js",
     "migrate": "npx prisma migrate dev"
   },
   "dependencies": {

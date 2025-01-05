@@ -11,7 +11,7 @@ import path from "path";
  * @param {string} [options.destPath=""] - Custom destination path for the file
  */
 export function storeOutput(output, fileName, options = {}) {
-  const { consoleMessage = "", append = true, destPath = "" } = options;
+  const { consoleMessage = "", append = false, destPath = "" } = options;
 
   // Construct the full file path
   const fullPath = destPath ? path.join(destPath, fileName) : fileName;
