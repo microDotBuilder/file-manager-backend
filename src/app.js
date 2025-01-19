@@ -24,12 +24,13 @@ import { errorHandler } from "./middlewares/error.middlewares.js";
 import uploadRouter from "./routes/upload.route.js";
 import updatediffRouter from "./routes/updatediff.route.js";
 import setupRouter from "./routes/setup.route.js";
+import structureRouter from "./routes/structure.route.js";
 
 app.use("/api/v1/healthcheck", healthcheckRouter);
 app.use("/api/v1/upload", uploadRouter);
 app.use("/api/v1/update", updatediffRouter);
 app.use("/api/v1/setup", setupRouter);
-
+app.use("/api/v1/structure", structureRouter);
 // common error handling middleware
 app.use(errorHandler);
 

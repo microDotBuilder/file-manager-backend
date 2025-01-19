@@ -12,6 +12,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
+    "test": "node src/utils/test.js",
     "queries": "node ./src/db/queries.js",
     "caching": "node ./src/db/caching.js",
     "seed": "node prisma/seed.js",

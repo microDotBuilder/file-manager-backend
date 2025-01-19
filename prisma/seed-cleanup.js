@@ -3,8 +3,7 @@ import prisma from "../src/db/init.js";
 export const cleanup = async () => {
   try {
     console.log("Cleaning up database...");
-    await prisma.folder.deleteMany();
-    await prisma.file.deleteMany();
+    await prisma.tree.deleteMany();
     console.log("Database cleaned up successfully");
   } catch (error) {
     console.error("Error cleaning up database:", error);

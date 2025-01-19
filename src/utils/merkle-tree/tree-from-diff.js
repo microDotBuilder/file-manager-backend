@@ -184,7 +184,7 @@ function updateNode(current, segments, newNode) {
  * - Suppose we have a `diffObj` that matches the new structure you posted
  * - We have an oldTree object. We'll apply diffObj.changes to oldTree
  */
-function exampleUsage() {
+export function exampleUsage() {
   // 1) Sample oldTree (a minimal example)
   const oldTree = {
     type: "folder",
@@ -255,7 +255,8 @@ function exampleUsage() {
   // 3) Apply the changes array to our oldTree
   const updatedTree = applyDiff(oldTree, diffObj.changes);
 
-  console.log("Updated Tree:", JSON.stringify(updatedTree, null, 2));
+  // console.log("Updated Tree:", JSON.stringify(updatedTree, null, 2));
+  return JSON.stringify(updatedTree, null, 2);
 }
 
 // Uncomment to run the example:

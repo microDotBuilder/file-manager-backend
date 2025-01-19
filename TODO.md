@@ -2,6 +2,11 @@
 
 ## step 1
 
+- [ ] setup convex
+- [ ] store plain json file in the database
+- [ ] generate tree from the json file
+- [ ] generate diff tree from the json file
+- [ ] return the diff tree to the frontend
 - [ ] backend endpoint to receive the json file for update
 - [ ] backend endpoint to receive the json file for setup
 - [ ] after the update is received, create the diff tree and store diff tree and the json tree as last update in the database
