@@ -50,6 +50,7 @@ const updatediff = async (req, res) => {
         );
     }
     // generate the diff
+    // its only needded when we are updating the google drive.
     const diff = await diffTrees(oldJson, new_json);
 
     // only for testing genera
