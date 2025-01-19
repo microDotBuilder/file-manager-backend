@@ -8,3 +8,12 @@ export const updateTree = async (tree) => {
     update: { content: treeJson },
   });
 };
+
+export const updateDiff = async (tree) => {
+  const treeJson = JSON.stringify(tree);
+  await prisma.diff.upsert({
+    where: { name: "diff-tree" },
+    create: { name: "diff-tree", content: treeJson },
+    update: { content: treeJson },
+  });
+};

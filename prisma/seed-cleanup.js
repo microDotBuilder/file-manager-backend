@@ -4,6 +4,7 @@ export const cleanup = async () => {
   try {
     console.log("Cleaning up database...");
     await prisma.tree.deleteMany();
+    await prisma.diff.deleteMany();
     console.log("Database cleaned up successfully");
   } catch (error) {
     console.error("Error cleaning up database:", error);

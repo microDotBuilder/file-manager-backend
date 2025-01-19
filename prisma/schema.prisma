@@ -17,3 +17,11 @@ model Tree {
   updatedAt    DateTime @updatedAt
   @@unique([name])
 }
+model diff { 
+  id       Int      @id @default(autoincrement())
+  name     String
+  content  String?  // JSON stringified tree
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  @@unique([name])
+}
